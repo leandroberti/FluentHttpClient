@@ -94,7 +94,7 @@ In this example we are calling an HTTP service at URL `http://MyService/api/GetA
 
 After the method `FromServiceApi`, as we can see by the intellisense, only two options are available:
 
-![alt text](https://raw.githubusercontent.com/leandroberti/FluentHttpClient/master/LMB.FluentHttpClient/Images/Intellisense01.png "Intellisense after FromServiceApi method")
+![alt text](https://raw.githubusercontent.com/leandroberti/FluentHttpClient/master/Images//Intellisense01.png "Intellisense after FromServiceApi method")
 
 The `WithJsonContent()` method sets the `content-type` to `application/json` and the `WithXmlContent()` method sets the `content-type` to `application/xml`.
 
@@ -123,11 +123,11 @@ These two methods are separated from the others because it takes us to another _
 
 Intellisense for all methods allowed after we use the methods that are mentioned in the _"Configuring the content-type"_:
 
-![alt text](https://raw.githubusercontent.com/leandroberti/FluentHttpClient/master/LMB.FluentHttpClient/Images/Intellisense02.png "Intellisense after WithJsonContent method")
+![alt text](https://raw.githubusercontent.com/leandroberti/FluentHttpClient/master/Images/Intellisense02.png "Intellisense after WithJsonContent method")
 
 Intellisense for all methods allowed after we use the _chaining_ method `FromPage`:
 
-![alt text](https://raw.githubusercontent.com/leandroberti/FluentHttpClient/master/LMB.FluentHttpClient/Images/Intellisense03.png "Intellisense after FromPage method")
+![alt text](https://raw.githubusercontent.com/leandroberti/FluentHttpClient/master/Images/Intellisense03.png "Intellisense after FromPage method")
 
 ## Where to get this extension?
 
