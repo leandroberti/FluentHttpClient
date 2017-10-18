@@ -490,7 +490,7 @@ namespace LMB.FluentHttpClient
         }
 
         /// <summary>
-        /// Send a POST request as an asynchronous operation.
+        /// Send a POST request to the specified Uri.
         /// </summary>
         /// <typeparam name="T">Type that defines the content for the HTTP request and response messages.</typeparam>
         /// <param name="entity">The HTTP request content sent to the server.</param>
