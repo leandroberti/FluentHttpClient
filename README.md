@@ -8,9 +8,18 @@ This makes it easier to make changes later on.
 Second, the Fluent Interface can be used to force the programmer to perform certain steps before they perform others.
 An object can have a method that uses data it expects to have been set in another method.
 
+**If you enjoy this work, please consider supporting me for developing and maintaining this (and others) templates.**
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://img.shields.io/badge/donate-paypal-brightgreen.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form>
+
 ## How it works?
 
-Using the power of interfaces, we can enforce ìrules of grammarî, and make it that certain methods cannot be called, until all the required setup methods have been called.
+Using the power of interfaces, we can enforce ‚Äúrules of grammar‚Äù, and make it that certain methods cannot be called, until all the required setup methods have been called.
 
 Whe achieve that, by following these three steps to create the fluent interface:
 
@@ -45,7 +54,7 @@ SetTimeout(int hours, int minutes, int seconds)
 WithAuthorization(string token)
 FromPage(int value)
 ```
-When any of these methods are called, you can keep on calling other methods. Thatís known as _ìmethod chainingî_.
+When any of these methods are called, you can keep on calling other methods. That‚Äôs known as _‚Äúmethod chaining‚Äù_.
 
 **Executing/Ending**
 
