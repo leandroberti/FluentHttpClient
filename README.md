@@ -10,10 +10,6 @@ This makes it easier to make changes later on.
 Second, the Fluent Interface can be used to force the programmer to perform certain steps before they perform others.
 An object can have a method that uses data it expects to have been set in another method.
 
-**If you enjoy this work, please consider supporting me for developing and maintaining this (and others) templates.**
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=26TY9QLTDWDSE&lc=US&item_name=leandroberti&item_number=github&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
-
 ## How it works?
 
 Using the power of interfaces, we can enforce “rules of grammar”, and make it that certain methods cannot be called, until all the required setup methods have been called.
